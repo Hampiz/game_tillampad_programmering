@@ -1,3 +1,4 @@
+// Include libraries
 #include <U8g2lib.h>
 #include <Wire.h>
 
@@ -37,7 +38,7 @@ void loop() {
 
     // Start the game when the start button is pressed
     if (digitalRead(startGamebuttonPin) == LOW) {
-      delay(200); // Debounce
+      delay(200);
       while (digitalRead(startGamebuttonPin) == LOW); // Wait for release
       inMenu = false;
       resetGame();
@@ -66,8 +67,8 @@ void resetGame() {
   noTone(buzzerPin);
 }
 
+// Gravity and jumping logic
 void updateGame() {
-  // Gravity and jumping logic
   ballY += ballSpeed;
   ballSpeed += gravity;
   if (ballY > groundY) {
@@ -112,7 +113,6 @@ void drawGame() {
 }
 
 void showMenu() {
-  // Display the menu
   u8g2.clearBuffer();
   u8g2.setFont(u8g2_font_6x10_tf);
   u8g2.setCursor(0, 10);
