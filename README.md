@@ -18,5 +18,5 @@ Features:
  * Fun and engaging
  * Compete for the highest score
 
-Länk till filmen:
+Link to the movie:
 https://drive.google.com/file/d/11DM6SB_eRNGEnEwCN8YdcU2PSntI4VRi
