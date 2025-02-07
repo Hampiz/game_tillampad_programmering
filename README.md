@@ -6,10 +6,10 @@ Overview:
 Hurdle Hopper is a fun and challenging platformer where you control a character that must jump over obstacles to survive. The goal is to time your jumps perfectly, avoid obstacles, and see how far you can go!
 
 How to Play:
-	* Press the red button to start the game.
+* Press the red button to start the game.
  * Press the green button to make your character jump.
-	* Time your jumps carefully to avoid obstacles.
-	* Try to achieve the highest score possible!
+ * Time your jumps carefully to avoid obstacles.
+ * Try to achieve the highest score possible!
  
 
 Features:
